@@ -1,0 +1,67 @@
+      if (boxTop < triggerBottom) {
+        activeMenu(id ? id : "home");
+      } else {
+        activeMenu("");
+      }
+    });
+  }
+};
+
+const activeMenu = (active) => {
+  const navItems = document.querySelectorAll("#anchor_nav> li");
+  if (navItems) {
+    navItems.forEach((nav) => {
+      if (nav.classList.contains(active)) {
+        nav.classList.add("current");
+      } else {
+        nav.classList.remove("current");
+      }
+    });
+  }
+};
+export const aTagClick = () => {
+  const aTag = document.querySelectorAll("[href='#']");
+  for (let i = 0; i < aTag.length; i++) {
+    const a = aTag[i];
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+    });
+  }
+};
+
+export const scroll_ = () => {
+  const sections = document.querySelectorAll(".kura_tm_section");
+  const navLi = document.querySelectorAll(".anchor_nav li");
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
+  navLi.forEach((li) => {
+    li.classList.remove("current");
+    if (li.getElementsByTagName("a")[0].getAttribute("href") == `#${current}`) {
+      li.classList.add("current");
+    }
+  });
+};
+# # #
+npm warn config production Use `--omit=dev` instead.
+
+> kura@0.1.0 start
+> NODE_OPTIONS=--openssl-legacy-provider next start
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at node:net:2170:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+#
