@@ -1,11 +1,8 @@
 {
-  "name": "kura",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
-    "start": "next start"
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start"
   },
   "dependencies": {
     "jarallax": "^1.12.7",
