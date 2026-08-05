@@ -82,21 +82,21 @@ const Home = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>10+</h3>
+                      <h3>4+</h3>
                       <span>
-                        Years of
+                        Anos de
                         <br />
-                        Experience
+                        Experiência
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>3K+</h3>
+                      <h3>100+</h3>
                       <span>
-                        Happy
+                        Clientes
                         <br />
-                        Customers
+                        Felizes
                       </span>
                     </div>
                   </li>

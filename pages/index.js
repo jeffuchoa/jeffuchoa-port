@@ -19,7 +19,6 @@ const Index = () => {
       <PageHead page="Home" />
       <div id="opened">
         <div className="kura_tm_all_wrap" data-color="orange">
-          <Settings />
           <Header />
           <Home />
           <Portfolio />
