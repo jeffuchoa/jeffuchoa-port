@@ -6,7 +6,7 @@
   "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
   "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
   "start": "NODE_OPTIONS=--openssl-legacy-provider next start"
-  }
+  },
   "dependencies": {
     "jarallax": "^1.12.7",
     "next": "11.1.2",
