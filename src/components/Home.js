@@ -21,8 +21,8 @@ const Home = () => {
         <div className="container">
           <div className="content">
             <div className="left">
-              <span className="name">Bernard Smith</span>
-              <h3 className="job">Creative Designer based in Japan</h3>
+              <span className="name">Jefferson Uchoa</span>
+              <h3 className="job">Desenvolvedor e Designer</h3>
               <div className="services">
                 <ul>
                   <li>
@@ -36,7 +36,7 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/1.jpg" alt="" />
-                      <span>Web Development</span>
+                      <span>Desenvolvimento Web</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -52,7 +52,7 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/2.jpg" alt="" />
-                      <span>Digital Marketing</span>
+                      <span>UI/UX Design</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -68,7 +68,7 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
-                      <span>Graphic Design</span>
+                      <span>Marketing Digital</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
