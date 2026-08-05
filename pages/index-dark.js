@@ -22,7 +22,6 @@ const IndexDark = () => {
       <PageHead page="Home" />
       <div id="opened">
         <div className="kura_tm_all_wrap" data-color="orange">
-          <Settings />
           <Header dark />
           <Home />
           <Portfolio />
