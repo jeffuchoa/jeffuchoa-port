@@ -12,6 +12,7 @@ import Footer from "../src/layout/Footer";
 import Header from "../src/layout/Header";
 import Settings from "../src/layout/Settings";
 import PageHead from "../src/PageHead";
+import Ferramentas from "../src/components/ferramentas";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
           <Header />
           <Home />
           <Portfolio />
+          <Ferramentas />
           <Skills />
           <Timeline />
           <Contact />

@@ -26,24 +26,6 @@ const IMAGES = [
     title: "Janaina Queiroz",
     sub: "UI/UX",
   },
-  {
-    src: "/img/portfolio/4.jpg",
-    thumbnail: "/img/portfolio/4.jpg",
-    title: "Folio Grasia",
-    sub: "Image",
-  },
-  {
-    src: "/img/portfolio/5.jpg",
-    thumbnail: "/img/portfolio/5.jpg",
-    title: "Viva Mercury",
-    sub: "Image",
-  },
-  {
-    src: "/img/portfolio/6.jpg",
-    thumbnail: "/img/portfolio/6.jpg",
-    title: "Santa Onera",
-    sub: "Image",
-  },
 ];
 
 const Portfolio = () => {
