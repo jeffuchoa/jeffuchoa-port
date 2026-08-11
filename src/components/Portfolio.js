@@ -13,6 +13,7 @@ const IMAGES = [
   },
   {
     src: "/img/portfolio/2.webp",
+    link: "https://jeffuchoa.github.io/RF-TEAM/",
     thumbnail: "/img/portfolio/2.webp",
     title: "RF Team",
     sub: "Landing Page",
