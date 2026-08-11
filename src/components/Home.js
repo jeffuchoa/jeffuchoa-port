@@ -36,7 +36,7 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/1.jpg" alt="" />
-                      <span>Desenvolvimento Web</span>
+                      <span>Front-end</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -68,7 +68,7 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
-                      <span>Marketing Digital</span>
+                      <span>Back-end</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"

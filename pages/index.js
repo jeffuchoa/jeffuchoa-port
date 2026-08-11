@@ -24,8 +24,6 @@ const Index = () => {
           <Portfolio />
           <Skills />
           <Timeline />
-          <Price />
-          <News />
           <Contact />
           <Footer />
           <Audio />

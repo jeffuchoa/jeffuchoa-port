@@ -5,23 +5,25 @@ import { portfolioSlider } from "../swiperSliderProps";
 
 const IMAGES = [
   {
-    src: "/img/portfolio/1.jpg",
+    src: "/img/portfolio/1.webp",
+    link: "https://jeffuchoa.github.io/Donas-de-Luxo/",
     thumbnail: "/img/portfolio/1.jpg",
-    title: "Magic Art",
-    sub: "Image",
+    title: "Donas D' Luxo",
+    sub: "Landing Page",
   },
   {
-    src: "/img/portfolio/2.jpg",
-    thumbnail: "/img/portfolio/2.jpg",
-    title: "Bona Green",
-    sub: "Image",
+    src: "/img/portfolio/2.webp",
+    thumbnail: "/img/portfolio/2.webp",
+    title: "RF Team",
+    sub: "Landing Page",
   },
 
   {
-    src: "/img/portfolio/3.jpg",
-    thumbnail: "/img/portfolio/3.jpg",
-    title: "Leo Dandora",
-    sub: "Image",
+    src: "/img/portfolio/3.webp",
+    link: "https://www.figma.com/proto/BY0uQ3QhCX0umqH36Hffz6/Clinica-Jana%C3%ADna-Queiroz?node-id=756-312&t=uMcCBmYT7SDkLkQY-1&scaling=min-zoom&content-scaling=fixed&page-id=204%3A204&starting-point-node-id=756%3A312&show-proto-sidebar=1",
+    thumbnail: "/img/portfolio/3.webp",
+    title: "Janaina Queiroz",
+    sub: "UI/UX",
   },
   {
     src: "/img/portfolio/4.jpg",
@@ -62,7 +64,7 @@ const Portfolio = () => {
           <div className="container">
             <div className="kura_tm_main_title">
               <span>Portfolio</span>
-              <h3>Selected Works</h3>
+              <h3>Trabalhos Selecionados</h3>
             </div>
             <div
               className="portfolio_list gallery_zoom wow fadeInUp"
@@ -93,9 +95,8 @@ const Portfolio = () => {
                               <span>{image.sub}</span>
                             </div>
                           </div>
-                          <a
+                          <a href={image.link} target="_blank"
                             className="kura_tm_full_link popup-vimeo"
-                            onClick={() => showLightBox(index)}
                           ></a>
                         </div>
                       </SwiperSlide>

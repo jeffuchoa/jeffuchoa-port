@@ -7,19 +7,19 @@ const Timeline = () => {
         <div className="container">
           <div className="kura_tm_main_title">
             <span>Timeline</span>
-            <h3>Working Period</h3>
+            <h3>Jornada Profissional</h3>
           </div>
           <div className="timeline_list">
             <ul>
               <li className="wow fadeInUp" data-wow-duration=".7s">
                 <div className="list_inner">
-                  <span>April, 2019 - Today</span>
+                  <span>Setembro, 2024 - Hoje</span>
                 </div>
                 <div className="list_inner">
-                  <span>Head Designer &amp; Co-founder</span>
+                  <span>Líder UI/UX Design &amp; Developer</span>
                 </div>
                 <div className="list_inner">
-                  <span>Alan Klein Design, London</span>
+                  <span>JIT Technology</span>
                 </div>
               </li>
               <li
@@ -28,13 +28,13 @@ const Timeline = () => {
                 data-wow-delay=".2s"
               >
                 <div className="list_inner">
-                  <span>September, 2018 - April, 2019</span>
+                  <span>Convocado Duas vezes (2022 & 2023)</span>
                 </div>
                 <div className="list_inner">
-                  <span>Creative Director &amp; Senior Designer</span>
+                  <span>Educador Tech</span>
                 </div>
                 <div className="list_inner">
-                  <span>Raxuna Poc, New York</span>
+                  <span>Democrito Rocha (O POVO)</span>
                 </div>
               </li>
               <li
@@ -43,43 +43,13 @@ const Timeline = () => {
                 data-wow-delay=".4s"
               >
                 <div className="list_inner">
-                  <span>October, 2015 - September, 2018</span>
+                  <span>Maio, 2022 - Hoje</span>
                 </div>
                 <div className="list_inner">
-                  <span>Head Designer</span>
+                  <span>UI/UX Designer &amp; Developer </span>
                 </div>
                 <div className="list_inner">
-                  <span>Arimana Co. Ltd, Amsterdam</span>
-                </div>
-              </li>
-              <li
-                className="wow fadeInUp"
-                data-wow-duration=".7s"
-                data-wow-delay=".6s"
-              >
-                <div className="list_inner">
-                  <span>July, 2012 - October, 2015</span>
-                </div>
-                <div className="list_inner">
-                  <span>Senior UX &amp; UI Designer</span>
-                </div>
-                <div className="list_inner">
-                  <span>Baxdoro Design, London</span>
-                </div>
-              </li>
-              <li
-                className="wow fadeInUp"
-                data-wow-duration=".7s"
-                data-wow-delay=".8s"
-              >
-                <div className="list_inner">
-                  <span>March, 2010 - July, 2012</span>
-                </div>
-                <div className="list_inner">
-                  <span>Junior UX Designer</span>
-                </div>
-                <div className="list_inner">
-                  <span>Simono Design Group, London</span>
+                  <span>Freelancer</span>
                 </div>
               </li>
             </ul>

@@ -6,8 +6,8 @@ const Contact = () => {
       <div className="kura_tm_contact">
         <div className="container">
           <div className="kura_tm_main_title">
-            <span>Contact</span>
-            <h3>Get in Touch</h3>
+            <span>Contato</span>
+            <h3>Fale comigo</h3>
           </div>
           <div className="contact_inner">
             <div className="left wow fadeInUp" data-wow-duration=".7s">
