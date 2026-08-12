@@ -2,13 +2,13 @@ import React from "react";
 
 const Price = () => {
   return (
-    <div className="kura_tm_section" id="price">
-      <div className="kura_tm_pricing">
+    <div className="jeff_tm_section" id="price">
+      <div className="jeff_tm_pricing">
         <div className="container">
           <div className="pricing_inner">
             <div className="left">
-              <div className="kura_tm_sticky_section">
-                <div className="kura_tm_main_title">
+              <div className="jeff_tm_sticky_section">
+                <div className="jeff_tm_main_title">
                   <span>Pricing</span>
                   <h3>Service Prices</h3>
                 </div>
@@ -22,7 +22,7 @@ const Price = () => {
               </div>
             </div>
             <div className="right">
-              <div className="kura_tm_sticky_section">
+              <div className="jeff_tm_sticky_section">
                 <ul>
                   <li className="wow fadeInUp" data-wow-duration=".7s">
                     <div className="list_inner">

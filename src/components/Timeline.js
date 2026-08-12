@@ -2,10 +2,10 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <div className="kura_tm_section" id="timeline">
-      <div className="kura_tm_timeline">
+    <div className="jeff_tm_section" id="timeline">
+      <div className="jeff_tm_timeline">
         <div className="container">
-          <div className="kura_tm_main_title">
+          <div className="jeff_tm_main_title">
             <span>Timeline</span>
             <h3>Jornada Profissional</h3>
           </div>

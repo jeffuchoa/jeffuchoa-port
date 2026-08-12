@@ -2,10 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="kura_tm_section" id="contact">
-      <div className="kura_tm_contact">
+    <div className="jeff_tm_section" id="contact">
+      <div className="jeff_tm_contact">
         <div className="container">
-          <div className="kura_tm_main_title">
+          <div className="jeff_tm_main_title">
             <span>Contato</span>
             <h3>Fale comigo</h3>
           </div>
@@ -13,9 +13,7 @@ const Contact = () => {
             <div className="left wow fadeInUp" data-wow-duration=".7s">
               <div className="text">
                 <p>
-                  Please fill out the form on this section to contact with me.
-                  Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through
-                  Friday
+                  Se interessou pelo meu trabalho? Vamos conversar melhor tirar do papel o seu site profissional!
                 </p>
               </div>
               <div className="short">
@@ -60,7 +58,7 @@ const Contact = () => {
                         <g></g>
                         <g></g>
                       </svg>
-                      <span>44 Place, Tokyo, Japan</span>
+                      <span> Fortaleza - Ceará</span>
                     </div>
                   </li>
                   <li>
@@ -100,7 +98,7 @@ const Contact = () => {
                         <g></g>
                         <g></g>
                       </svg>
-                      <span>+77 033 442 55 57</span>
+                      <span>(88) 99946-0023</span>
                     </div>
                   </li>
                   <li>
@@ -116,7 +114,7 @@ const Contact = () => {
                       >
                         <path d="m434.146 59.882h-389.234c-24.766 0-44.912 20.146-44.912 44.912v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159l-200.355 173.649-200.356-173.649c1.769-.736 3.704-1.159 5.738-1.159zm0 299.411h-389.234c-8.26 0-14.971-6.71-14.971-14.971v-251.648l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"></path>
                       </svg>
-                      <span>dodo@gmail.com</span>
+                      <span>jefferson.uchoa86@gmail.com</span>
                     </div>
                   </li>
                   <li>
@@ -154,7 +152,7 @@ const Contact = () => {
                         <g></g>
                         <g></g>
                       </svg>
-                      <span>www.domain.com</span>
+                      <span>www.jeffuchoa.com.br</span>
                     </div>
                   </li>
                 </ul>
@@ -169,33 +167,29 @@ const Contact = () => {
                   id="contact_form"
                   autoComplete="off"
                 >
-                  <div
-                    className="returnmessage"
-                    data-success="Your message has been received, We will contact you soon."
-                  ></div>
-                  <div className="empty_notice">
-                    <span>Please Fill Required Fields</span>
-                  </div>
-                  <div className="first">
-                    <ul>
-                      <li>
-                        <input id="name" type="text" placeholder="Name" />
-                      </li>
-                      <li>
-                        <input id="email" type="text" placeholder="Email" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="last">
-                    <textarea id="message" placeholder="Message"></textarea>
-                  </div>
-                  <div className="kura_tm_button" data-position="left">
+                  <div className="jeff_tm_button" data-position="left">
                     <a
                       id="send_message"
                       className="d-flex align-items-center"
-                      href="#"
+                      href="https://wa.me/5588999460023"
+                      target="_blank"
                     >
-                      <span>Submit</span>
+                      <span>WhatsApp</span>
+                      <img
+                        src="/img/svg/right-arrow.svg"
+                        className="svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                   <div className="jeff_tm_button" data-position="left">
+                    <a
+                      id="send_message"
+                      className="d-flex align-items-center"
+                      href="https://www.instagram.com/jeffuchoame/"
+                      target="_blank"
+                    >
+                      <span>Instagram</span>
                       <img
                         src="/img/svg/right-arrow.svg"
                         className="svg"

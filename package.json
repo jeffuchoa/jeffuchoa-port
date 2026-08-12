@@ -1,5 +1,5 @@
 {
-  "name": "kura",
+  "name": "jeff",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "NODE_OPTIONS=--openssl-legacy-provider next start"
   },
   "dependencies": {
-    "jarallax": "^1.12.7",
+    "jarallax": "^3.0.1",
     "next": "^14.2.35",
     "react": "^18.3.1",
     "react-awesome-lightbox": "^1.8.1",

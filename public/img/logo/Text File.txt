@@ -30,7 +30,7 @@ export const aTagClick = () => {
 };
 
 export const scroll_ = () => {
-  const sections = document.querySelectorAll(".kura_tm_section");
+  const sections = document.querySelectorAll(".jeff_tm_section");
   const navLi = document.querySelectorAll(".anchor_nav li");
   let current = "";
   sections.forEach((section) => {
@@ -50,7 +50,7 @@ export const scroll_ = () => {
 # # #
 npm warn config production Use `--omit=dev` instead.
 
-> kura@0.1.0 start
+> jeff@0.1.0 start
 > NODE_OPTIONS=--openssl-legacy-provider next start
 
 Error: listen EADDRINUSE: address already in use 0.0.0.0:3000

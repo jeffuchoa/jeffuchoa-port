@@ -11,7 +11,7 @@ const Intro = () => {
         s0 = document.getElementsByTagName("script")[0];
       s1.async = true;
       s1.src = "https://embed.tawk.to/6192234f6bb0760a4942a6b6/1fkhdjruo";
-      s1.charset = "UTF-8";
+      s1.charSet = "UTF-8";
       s1.setAttribute("crossorigin", "*");
       s0.parentNode.insertBefore(s1, s0);
     })();
@@ -20,11 +20,11 @@ const Intro = () => {
     <Fragment>
       <PageHead page="Intro" />
       <div
-        className="kura_tm_all_wrap"
+        className="jeff_tm_all_wrap"
         data-magic-cursor="show"
         data-color="orange"
       >
-        <div className="kura_tm_intro">
+        <div className="jeff_tm_intro">
           <div className="short_info">
             <img src="img/logo/dark.png" alt="alt" />
             <h3>Personal Portfolio Nextjs Template</h3>

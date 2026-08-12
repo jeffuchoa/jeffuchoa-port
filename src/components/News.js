@@ -21,10 +21,10 @@ const News = () => {
 
   return (
     <Fragment>
-      <div className="kura_tm_section" id="news">
-        <div className="kura_tm_news">
+      <div className="jeff_tm_section" id="news">
+        <div className="jeff_tm_news">
           <div className="container">
-            <div className="kura_tm_main_title">
+            <div className="jeff_tm_main_title">
               <span>News</span>
               <h3>Latest News</h3>
             </div>
@@ -54,7 +54,7 @@ const News = () => {
                           <h3>VS Code Gets New JavaScript Debugger</h3>
                         </div>
                         <a
-                          className="kura_tm_full_link"
+                          className="jeff_tm_full_link"
                           onClick={() =>
                             onOpenModal(
                               `img/news/1.jpg`,
@@ -67,7 +67,7 @@ const News = () => {
                           <div className="news_popup_informations">
                             <div className="text">
                               <p>
-                                Kura is a leading web design agency with an
+                                jeff is a leading web design agency with an
                                 award-winning design team that creates
                                 innovative, effective websites that capture your
                                 brand, improve your conversion rates, and
@@ -85,7 +85,7 @@ const News = () => {
                               <p>
                                 That’s why more companies are not only
                                 reevaluating their website’s design but also
-                                partnering with Kura, the web design agency
+                                partnering with jeff, the web design agency
                                 that’s driven more than $2.4 billion in revenue
                                 for its clients. With over 50 web design awards
                                 under our belt, we're confident we can design a
@@ -119,7 +119,7 @@ const News = () => {
                           <h3>Javalin Framework for Kotlin and Java Updated</h3>
                         </div>
                         <a
-                          className="kura_tm_full_link"
+                          className="jeff_tm_full_link"
                           onClick={() =>
                             onOpenModal(
                               `img/news/2.jpg`,
@@ -132,7 +132,7 @@ const News = () => {
                           <div className="news_popup_informations">
                             <div className="text">
                               <p>
-                                Kura is a leading web design agency with an
+                                jeff is a leading web design agency with an
                                 award-winning design team that creates
                                 innovative, effective websites that capture your
                                 brand, improve your conversion rates, and
@@ -150,7 +150,7 @@ const News = () => {
                               <p>
                                 That’s why more companies are not only
                                 reevaluating their website’s design but also
-                                partnering with Kura, the web design agency
+                                partnering with jeff, the web design agency
                                 that’s driven more than $2.4 billion in revenue
                                 for its clients. With over 50 web design awards
                                 under our belt, we're confident we can design a
@@ -184,7 +184,7 @@ const News = () => {
                           <h3>JavaScript Dominated Open Source in 2021</h3>
                         </div>
                         <a
-                          className="kura_tm_full_link"
+                          className="jeff_tm_full_link"
                           onClick={() =>
                             onOpenModal(
                               `img/news/3.jpg`,
@@ -197,7 +197,7 @@ const News = () => {
                           <div className="news_popup_informations">
                             <div className="text">
                               <p>
-                                Kura is a leading web design agency with an
+                                jeff is a leading web design agency with an
                                 award-winning design team that creates
                                 innovative, effective websites that capture your
                                 brand, improve your conversion rates, and
@@ -215,7 +215,7 @@ const News = () => {
                               <p>
                                 That’s why more companies are not only
                                 reevaluating their website’s design but also
-                                partnering with Kura, the web design agency
+                                partnering with jeff, the web design agency
                                 that’s driven more than $2.4 billion in revenue
                                 for its clients. With over 50 web design awards
                                 under our belt, we're confident we can design a
@@ -249,7 +249,7 @@ const News = () => {
                           <h3>Perfecto Tests Progressive Web Apps</h3>
                         </div>
                         <a
-                          className="kura_tm_full_link"
+                          className="jeff_tm_full_link"
                           onClick={() =>
                             onOpenModal(
                               `img/news/4.jpg`,
@@ -262,7 +262,7 @@ const News = () => {
                           <div className="news_popup_informations">
                             <div className="text">
                               <p>
-                                Kura is a leading web design agency with an
+                                jeff is a leading web design agency with an
                                 award-winning design team that creates
                                 innovative, effective websites that capture your
                                 brand, improve your conversion rates, and
@@ -280,7 +280,7 @@ const News = () => {
                               <p>
                                 That’s why more companies are not only
                                 reevaluating their website’s design but also
-                                partnering with Kura, the web design agency
+                                partnering with jeff, the web design agency
                                 that’s driven more than $2.4 billion in revenue
                                 for its clients. With over 50 web design awards
                                 under our belt, we're confident we can design a
@@ -295,7 +295,7 @@ const News = () => {
                   </Swiper>
                 </div>
 
-                <div className="kura_tm_swiper_progress fill">
+                <div className="jeff_tm_swiper_progress fill">
                   <div className="my_pagination_in"></div>
                   <div className="my_navigation">
                     <ul>

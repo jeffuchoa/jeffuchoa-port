@@ -1,27 +1,27 @@
-@charset "utf-8";
+@charSet "utf-8";
 
 /*
 /*	Copyright (c) 2021 Marketify
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
 
-01)	KURA BASE
-02)	KURA TOPBAR
-03) KURA MOBILE MENU
-04) KURA HERO
-05) KURA PORTFOLIO
-06) KURA SKILLS
-07) KURA TIMELINE
-08) KURA PRICING
-09) KURA NEWS
-10) KURA CONTACT
-11) KURA COPYRIGHT
-12) KURA CURSOR
-13) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
+01)	jeff BASE
+02)	jeff TOPBAR
+03) jeff MOBILE MENU
+04) jeff HERO
+05) jeff PORTFOLIO
+06) jeff SKILLS
+07) jeff TIMELINE
+08) jeff PRICING
+09) jeff NEWS
+10) jeff CONTACT
+11) jeff COPYRIGHT
+12) jeff CURSOR
+13) jeff MEDIA QUERIES (FOR SMALL DEVIVES)
 
 
 /*---------------------------------------------------*/
-/*	01) KURA BASE
+/*	01) jeff BASE
 /*---------------------------------------------------*/
 
 @import "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
@@ -137,27 +137,27 @@ h6 {
     font-size: 16px;
 }
 
-.kura_tm_all_wrap {
+.jeff_tm_all_wrap {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     position: relative;
 }
-.kura_tm_all_wrap,
-.kura_tm_all_wrap * {
+.jeff_tm_all_wrap,
+.jeff_tm_all_wrap * {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box; /* Opera/IE 8+ */
 }
-.kura_tm_section {
+.jeff_tm_section {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
 
-.kura_tm_sticky_section {
+.jeff_tm_sticky_section {
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -ms-sticky;
@@ -166,7 +166,7 @@ h6 {
     overflow: visible;
     top: 50px;
 }
-.kura_tm_sticky_section:after {
+.jeff_tm_sticky_section:after {
     clear: both;
     display: table;
     content: "";
@@ -291,10 +291,10 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	02) KURA TOPBAR
+/*	02) jeff TOPBAR
 /*---------------------------------------------------*/
 
-.kura_tm_topbar {
+.jeff_tm_topbar {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -308,11 +308,11 @@ h6 {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-body.opened .kura_tm_topbar {
+body.opened .jeff_tm_topbar {
     transition-delay: 0.4s;
     transform: translateY(0);
 }
-.kura_tm_topbar .wrapper {
+.jeff_tm_topbar .wrapper {
     width: 100%;
     height: auto;
     clear: both;
@@ -324,10 +324,10 @@ body.opened .kura_tm_topbar {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_topbar.animate .wrapper {
+.jeff_tm_topbar.animate .wrapper {
     background-color: rgba(255, 255, 255, 1);
 }
-.kura_tm_topbar .topbar_inner {
+.jeff_tm_topbar .topbar_inner {
     width: 100%;
     height: auto;
     clear: both;
@@ -342,25 +342,25 @@ body.opened .kura_tm_topbar {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_topbar.animate .topbar_inner {
+.jeff_tm_topbar.animate .topbar_inner {
     padding: 20px 37px 20px 50px;
 }
-.kura_tm_topbar .logo img {
+.jeff_tm_topbar .logo img {
     max-width: 100px;
     max-height: 100px;
 }
-.kura_tm_topbar .menu {
+.jeff_tm_topbar .menu {
     display: flex;
     align-items: center;
 }
-.kura_tm_topbar .list {
+.jeff_tm_topbar .list {
     padding-right: 40px;
 }
-.kura_tm_topbar .list ul {
+.jeff_tm_topbar .list ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_topbar .list ul li {
+.jeff_tm_topbar .list ul li {
     margin: 0px 20px 0px 0px;
     display: inline-block;
     list-style-type: none;
@@ -375,15 +375,15 @@ body.opened .kura_tm_topbar {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_topbar .list ul li:last-child {
+.jeff_tm_topbar .list ul li:last-child {
     margin-right: 0px;
 }
-.kura_tm_topbar .list ul li.opened {
+.jeff_tm_topbar .list ul li.opened {
     opacity: 1;
     visibility: visible;
     left: 0px;
 }
-.kura_tm_topbar .list ul li a {
+.jeff_tm_topbar .list ul li a {
     text-decoration: none;
     color: #000;
     font-family: "Poppins";
@@ -394,13 +394,13 @@ body.opened .kura_tm_topbar {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_topbar .list ul li a:hover {
+.jeff_tm_topbar .list ul li a:hover {
     color: #ff4522;
 }
-.kura_tm_topbar .list ul li.current a {
+.jeff_tm_topbar .list ul li.current a {
     color: #ff4522;
 }
-.kura_tm_topbar .trigger {
+.jeff_tm_topbar .trigger {
     line-height: 1;
 }
 .trigger .hamburger-inner,
@@ -414,10 +414,10 @@ body.opened .kura_tm_topbar {
 }
 
 /*---------------------------------------------------*/
-/*	03) KURA MOBILE MENU
+/*	03) jeff MOBILE MENU
 /*---------------------------------------------------*/
 
-.kura_tm_mobile_menu {
+.jeff_tm_mobile_menu {
     width: 100%;
     height: auto;
     position: fixed;
@@ -426,7 +426,7 @@ body.opened .kura_tm_topbar {
     display: none;
     z-index: 10;
 }
-.kura_tm_mobile_menu .mobile_menu_inner {
+.jeff_tm_mobile_menu .mobile_menu_inner {
     width: 100%;
     height: auto;
     float: left;
@@ -435,7 +435,7 @@ body.opened .kura_tm_topbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 15px 30px 15px 40px;
 }
-.kura_tm_mobile_menu .mobile_in {
+.jeff_tm_mobile_menu .mobile_in {
     width: 100%;
     height: auto;
     clear: both;
@@ -444,14 +444,14 @@ body.opened .kura_tm_topbar {
     align-items: center;
     justify-content: space-between;
 }
-.kura_tm_mobile_menu .mobile_in .logo img {
+.jeff_tm_mobile_menu .mobile_in .logo img {
     max-width: 80px;
     max-height: 70px;
 }
-.kura_tm_mobile_menu .trigger {
+.jeff_tm_mobile_menu .trigger {
     line-height: 0;
 }
-.kura_tm_mobile_menu .dropdown {
+.jeff_tm_mobile_menu .dropdown {
     width: 100%;
     height: auto;
     clear: both;
@@ -459,26 +459,26 @@ body.opened .kura_tm_topbar {
     background-color: #fff;
     display: none;
 }
-.kura_tm_mobile_menu .dropdown.active {
+.jeff_tm_mobile_menu .dropdown.active {
     display: block;
 }
-.kura_tm_mobile_menu .dropdown .dropdown_inner {
+.jeff_tm_mobile_menu .dropdown .dropdown_inner {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding: 25px 40px;
 }
-.kura_tm_mobile_menu .dropdown .dropdown_inner ul {
+.jeff_tm_mobile_menu .dropdown .dropdown_inner ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_mobile_menu .dropdown .dropdown_inner ul li {
+.jeff_tm_mobile_menu .dropdown .dropdown_inner ul li {
     margin: 0px;
     float: left;
     width: 100%;
 }
-.kura_tm_mobile_menu .dropdown .dropdown_inner ul li a {
+.jeff_tm_mobile_menu .dropdown .dropdown_inner ul li a {
     text-decoration: none;
     color: #000;
     display: inline-block;
@@ -488,27 +488,27 @@ body.opened .kura_tm_topbar {
 }
 
 /*---------------------------------------------------*/
-/*	04) KURA HERO
+/*	04) jeff HERO
 /*---------------------------------------------------*/
 
-.kura_tm_hero {
+.jeff_tm_hero {
     width: 100%;
     min-height: 100vh;
     float: left;
     clear: both;
     background-color: #f9f9f9;
 }
-.kura_tm_hero .container {
+.jeff_tm_hero .container {
     min-height: 100%;
 }
-.kura_tm_hero .content {
+.jeff_tm_hero .content {
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     position: relative;
 }
-.kura_tm_hero .content .left {
+.jeff_tm_hero .content .left {
     width: 50%;
     padding-right: 50px;
     position: relative;
@@ -522,42 +522,42 @@ body.opened .kura_tm_topbar {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-body.opened .kura_tm_hero .content .left {
+body.opened .jeff_tm_hero .content .left {
     opacity: 1;
     visibility: visible;
     top: 0px;
 }
-.kura_tm_hero .name {
+.jeff_tm_hero .name {
     display: inline-block;
     margin-bottom: 16px;
     color: #ff4522;
     font-family: "Poppins";
     font-weight: 500;
 }
-.kura_tm_hero .job {
+.jeff_tm_hero .job {
     font-size: 45px;
     font-weight: 800;
     line-height: 1.4;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-.kura_tm_hero .services {
+.jeff_tm_hero .services {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     margin-bottom: 35px;
 }
-.kura_tm_hero .services ul {
+.jeff_tm_hero .services ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_hero .services ul li {
+.jeff_tm_hero .services ul li {
     width: 100%;
     float: left;
     margin: 0px;
 }
-.kura_tm_hero .services ul li a {
+.jeff_tm_hero .services ul li a {
     text-decoration: none;
     color: #000;
     font-size: 17px;
@@ -571,7 +571,7 @@ body.opened .kura_tm_hero .content .left {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_hero .services ul li .svg {
+.jeff_tm_hero .services ul li .svg {
     position: relative;
     top: 2px;
     width: 17px;
@@ -584,20 +584,20 @@ body.opened .kura_tm_hero .content .left {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_hero .services ul li a:hover {
+.jeff_tm_hero .services ul li a:hover {
     color: #ff4522;
 }
-.kura_tm_hero .services ul li a:hover .svg {
+.jeff_tm_hero .services ul li a:hover .svg {
     transform: rotate(-50deg);
     color: #ff4522;
 }
-.kura_tm_hero .services ul li .image {
+.jeff_tm_hero .services ul li .image {
     opacity: 0;
     visibility: hidden;
     position: absolute;
     z-index: -111;
 }
-.kura_tm_modalbox {
+.jeff_tm_modalbox {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -614,11 +614,11 @@ body.opened .kura_tm_hero .content .left {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_modalbox.opened {
+.jeff_tm_modalbox.opened {
     opacity: 1;
     visibility: visible;
 }
-.kura_tm_modalbox .box_inner {
+.jeff_tm_modalbox .box_inner {
     position: absolute;
     top: 70px;
     bottom: 70px;
@@ -638,27 +638,27 @@ body.opened .kura_tm_hero .content .left {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_modalbox.opened .box_inner {
+.jeff_tm_modalbox.opened .box_inner {
     opacity: 1;
     visibility: visible;
     margin-top: 0px;
 }
-.kura_tm_modalbox .close {
+.jeff_tm_modalbox .close {
     position: fixed;
     left: 100%;
     top: 0px;
     margin-left: 20px;
     z-index: 111111;
 }
-.kura_tm_modalbox .close a {
+.jeff_tm_modalbox .close a {
     text-decoration: none;
     color: #fff;
 }
-.kura_tm_modalbox .close .svg {
+.jeff_tm_modalbox .close .svg {
     width: 50px;
     height: 50px;
 }
-.kura_tm_modalbox .description_wrap {
+.jeff_tm_modalbox .description_wrap {
     position: relative;
     width: 100%;
     height: 100%;
@@ -667,29 +667,29 @@ body.opened .kura_tm_hero .content .left {
     padding: 50px;
     overflow-y: scroll;
 }
-.kura_tm_hero .popup_informations {
+.jeff_tm_hero .popup_informations {
     opacity: 0;
     visibility: hidden;
     position: absolute;
     z-index: -11;
     display: none;
 }
-.kura_tm_modalbox .popup_informations {
+.jeff_tm_modalbox .popup_informations {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_modalbox .popup_informations .image {
+.jeff_tm_modalbox .popup_informations .image {
     position: relative;
     margin-bottom: 37px;
 }
-.kura_tm_modalbox .popup_informations .image img {
+.jeff_tm_modalbox .popup_informations .image img {
     position: relative;
     opacity: 0;
     min-width: 100%;
 }
-.kura_tm_modalbox .popup_informations .image .main {
+.jeff_tm_modalbox .popup_informations .image .main {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -700,65 +700,65 @@ body.opened .kura_tm_hero .content .left {
     background-position: center;
     border-radius: 15px;
 }
-.kura_tm_modalbox .popup_informations .title {
+.jeff_tm_modalbox .popup_informations .title {
     width: 100%;
     float: left;
     margin-bottom: 22px;
 }
-.kura_tm_modalbox .title h3 {
+.jeff_tm_modalbox .title h3 {
     font-size: 22px;
 }
-.kura_tm_modalbox .description {
+.jeff_tm_modalbox .description {
     width: 100%;
     float: left;
 }
-.kura_tm_modalbox .description p {
+.jeff_tm_modalbox .description p {
     margin-bottom: 15px;
 }
-.kura_tm_modalbox .description p:last-child {
+.jeff_tm_modalbox .description p:last-child {
     margin-bottom: 0px;
 }
-.kura_tm_modalbox .description_wrap::-webkit-scrollbar {
+.jeff_tm_modalbox .description_wrap::-webkit-scrollbar {
     width: 11px;
 }
-.kura_tm_modalbox .description_wrap {
+.jeff_tm_modalbox .description_wrap {
     scrollbar-width: thin;
     scrollbar-color: #999 #fff;
 }
-.kura_tm_modalbox .description_wrap:-webkit-scrollbar-track {
+.jeff_tm_modalbox .description_wrap:-webkit-scrollbar-track {
     background: #fff;
 }
-.kura_tm_modalbox .description_wrap::-webkit-scrollbar-thumb {
+.jeff_tm_modalbox .description_wrap::-webkit-scrollbar-thumb {
     background-color: #999;
     border-radius: 6px;
     border: 3px solid #fff;
 }
-.kura_tm_hero .short_info {
+.jeff_tm_hero .short_info {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_hero .short_info ul {
+.jeff_tm_hero .short_info ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_hero .short_info ul li {
+.jeff_tm_hero .short_info ul li {
     margin: 0px 50px 15px 0px;
     display: inline-block;
 }
-.kura_tm_hero .short_info ul li:last-child {
+.jeff_tm_hero .short_info ul li:last-child {
     margin-right: 0px;
 }
-.kura_tm_hero .short_info ul li .list_inner {
+.jeff_tm_hero .short_info ul li .list_inner {
     display: flex;
     align-items: center;
 }
-.kura_tm_hero .short_info ul li h3 {
+.jeff_tm_hero .short_info ul li h3 {
     font-size: 45px;
     font-weight: 600;
 }
-.kura_tm_hero .short_info ul li span {
+.jeff_tm_hero .short_info ul li span {
     font-family: "Poppins";
     padding-left: 15px;
     display: inline-block;
@@ -767,7 +767,7 @@ body.opened .kura_tm_hero .content .left {
     top: -3px;
     font-size: 14px;
 }
-.kura_tm_hero .content .right {
+.jeff_tm_hero .content .right {
     width: 50%;
     text-align: right;
     padding-left: 200px;
@@ -782,20 +782,20 @@ body.opened .kura_tm_hero .content .left {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-body.opened .kura_tm_hero .content .right {
+body.opened .jeff_tm_hero .content .right {
     opacity: 1;
     visibility: visible;
     top: 0px;
 }
-.kura_tm_hero .content .right .image {
+.jeff_tm_hero .content .right .image {
     position: relative;
 }
-.kura_tm_hero .content .right .image img {
+.jeff_tm_hero .content .right .image img {
     min-width: 100%;
     position: relative;
     opacity: 0;
 }
-.kura_tm_hero .content .right .image .main {
+.jeff_tm_hero .content .right .image .main {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -814,10 +814,10 @@ body.opened .kura_tm_hero .content .right {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-body.opened .kura_tm_hero .content .right .image .main {
+body.opened .jeff_tm_hero .content .right .image .main {
     transform: rotate(7deg);
 }
-.kura_tm_hero .content .right .image .shape {
+.jeff_tm_hero .content .right .image .shape {
     position: absolute;
     top: 23px;
     bottom: -23px;
@@ -834,10 +834,10 @@ body.opened .kura_tm_hero .content .right .image .main {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-body.opened .kura_tm_hero .content .right .image .shape {
+body.opened .jeff_tm_hero .content .right .image .shape {
     transform: rotate(-6deg);
 }
-.kura_tm_hero .down {
+.jeff_tm_hero .down {
     position: absolute;
     left: 0px;
     bottom: 8%;
@@ -850,12 +850,12 @@ body.opened .kura_tm_hero .content .right .image .shape {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-body.opened .kura_tm_hero .down {
+body.opened .jeff_tm_hero .down {
     opacity: 1;
     visibility: visible;
     bottom: 10%;
 }
-.kura_tm_hero .down .svg {
+.jeff_tm_hero .down .svg {
     width: 40px;
     height: 40px;
     animation: scroll ease 2s infinite;
@@ -868,7 +868,7 @@ body.opened .kura_tm_hero .down {
         transform: translateY(20px);
     }
 }
-.kura_tm_hero .down a {
+.jeff_tm_hero .down a {
     text-decoration: none;
     color: #000;
 
@@ -878,60 +878,60 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_hero .down a:hover {
+.jeff_tm_hero .down a:hover {
     color: #ff4522;
 }
 
 /*---------------------------------------------------*/
-/*	05) KURA PORTFOLIO
+/*	05) jeff PORTFOLIO
 /*---------------------------------------------------*/
 
-.kura_tm_main_title {
+.jeff_tm_main_title {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_main_title span {
+.jeff_tm_main_title span {
     display: inline-block;
     margin-bottom: 10px;
     color: #ff4522;
     font-family: "Poppins";
     font-weight: 500;
 }
-.kura_tm_main_title h3 {
+.jeff_tm_main_title h3 {
     font-weight: 800;
     text-transform: uppercase;
 }
-.kura_tm_portfolio {
+.jeff_tm_portfolio {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding: 140px 0px 138px 0px;
 }
-.kura_tm_portfolio .portfolio_list {
+.jeff_tm_portfolio .portfolio_list {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding-top: 92px;
 }
-.kura_tm_portfolio .portfolio_list .list_inner {
+.jeff_tm_portfolio .portfolio_list .list_inner {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_portfolio .portfolio_list .image {
+.jeff_tm_portfolio .portfolio_list .image {
     position: relative;
 }
-.kura_tm_portfolio .portfolio_list .image img {
+.jeff_tm_portfolio .portfolio_list .image img {
     position: relative;
     min-width: 100%;
     opacity: 0;
 }
-.kura_tm_portfolio .portfolio_list .image .main {
+.jeff_tm_portfolio .portfolio_list .image .main {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -942,7 +942,7 @@ body.opened .kura_tm_hero .down {
     background-size: cover;
     border-radius: 10px;
 }
-.kura_tm_portfolio .portfolio_list .overlay {
+.jeff_tm_portfolio .portfolio_list .overlay {
     position: absolute;
     top: 10px;
     bottom: 10px;
@@ -960,11 +960,11 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_portfolio .portfolio_list .list_inner:hover .overlay {
+.jeff_tm_portfolio .portfolio_list .list_inner:hover .overlay {
     opacity: 1;
     visibility: visible;
 }
-.kura_tm_portfolio .portfolio_list .details {
+.jeff_tm_portfolio .portfolio_list .details {
     position: absolute;
     z-index: 2;
     bottom: 41px;
@@ -978,19 +978,19 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_portfolio .portfolio_list .list_inner:hover .details {
+.jeff_tm_portfolio .portfolio_list .list_inner:hover .details {
     opacity: 1;
     visibility: visible;
 }
-.kura_tm_portfolio .portfolio_list .details h3 {
+.jeff_tm_portfolio .portfolio_list .details h3 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 4px;
 }
-.kura_tm_portfolio .portfolio_list .details span {
+.jeff_tm_portfolio .portfolio_list .details span {
     font-family: "Poppins";
 }
-.kura_tm_portfolio .portfolio_list .image .svg {
+.jeff_tm_portfolio .portfolio_list .image .svg {
     position: absolute;
     top: 40px;
     right: -120px;
@@ -1008,11 +1008,11 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_portfolio .portfolio_list .list_inner:hover .image .svg {
+.jeff_tm_portfolio .portfolio_list .list_inner:hover .image .svg {
     opacity: 1;
     visibility: visible;
 }
-.kura_tm_full_link {
+.jeff_tm_full_link {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -1020,7 +1020,7 @@ body.opened .kura_tm_hero .down {
     right: 0px;
     z-index: 5;
 }
-.kura_tm_swiper_progress {
+.jeff_tm_swiper_progress {
     width: 100%;
     display: flex;
     align-items: center;
@@ -1028,11 +1028,11 @@ body.opened .kura_tm_hero .down {
     clear: both;
     margin-top: 27px;
 }
-.kura_tm_swiper_progress .my_pagination_in {
+.jeff_tm_swiper_progress .my_pagination_in {
     float: left;
     position: relative;
 }
-.kura_tm_swiper_progress span {
+.jeff_tm_swiper_progress span {
     display: block;
     float: left;
     font-size: 16px;
@@ -1041,12 +1041,12 @@ body.opened .kura_tm_hero .down {
     height: 22px;
     line-height: 22px;
 }
-.kura_tm_swiper_progress .pagination_progress {
+.jeff_tm_swiper_progress .pagination_progress {
     width: 100px;
     margin: 0 20px;
     position: relative;
 }
-.kura_tm_swiper_progress .pagination_progress .all {
+.jeff_tm_swiper_progress .pagination_progress .all {
     height: 1px;
     width: 100%;
     position: absolute;
@@ -1056,7 +1056,7 @@ body.opened .kura_tm_hero .down {
     left: 0;
     background-color: rgba(0, 0, 0, 0.2);
 }
-.kura_tm_swiper_progress .pagination_progress .all span {
+.jeff_tm_swiper_progress .pagination_progress .all span {
     height: 1px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -1073,22 +1073,22 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_swiper_progress .my_navigation {
+.jeff_tm_swiper_progress .my_navigation {
     position: relative;
     top: 6px;
 }
-.kura_tm_swiper_progress .my_navigation ul {
+.jeff_tm_swiper_progress .my_navigation ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_swiper_progress .my_navigation ul li {
+.jeff_tm_swiper_progress .my_navigation ul li {
     margin: 0px 10px 0px 0px;
     display: inline-block;
 }
-.kura_tm_swiper_progress .my_navigation ul li:last-child {
+.jeff_tm_swiper_progress .my_navigation ul li:last-child {
     margin-right: 0px;
 }
-.kura_tm_swiper_progress .my_navigation ul li a {
+.jeff_tm_swiper_progress .my_navigation ul li a {
     text-decoration: none;
     color: #000;
 
@@ -1098,22 +1098,22 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_swiper_progress .my_navigation ul li a:hover {
+.jeff_tm_swiper_progress .my_navigation ul li a:hover {
     color: #ff4522;
 }
-.kura_tm_swiper_progress .my_navigation ul li .svg {
+.jeff_tm_swiper_progress .my_navigation ul li .svg {
     width: 27px;
     height: 27px;
 }
-.kura_tm_swiper_progress .my_navigation ul li .my_prev .svg {
+.jeff_tm_swiper_progress .my_navigation ul li .my_prev .svg {
     transform: rotate(180deg);
 }
 
 /*---------------------------------------------------*/
-/*	06) KURA SKILLS
+/*	06) jeff SKILLS
 /*---------------------------------------------------*/
 
-.kura_tm_skills {
+.jeff_tm_skills {
     width: 100%;
     height: auto;
     clear: both;
@@ -1121,7 +1121,7 @@ body.opened .kura_tm_hero .down {
     position: relative;
     padding: 140px 0px 150px 0px;
 }
-.kura_tm_skills:before {
+.jeff_tm_skills:before {
     position: absolute;
     content: "";
     top: 0px;
@@ -1133,7 +1133,7 @@ body.opened .kura_tm_hero .down {
     opacity: 0.6;
     z-index: 2;
 }
-.kura_tm_skills:after {
+.jeff_tm_skills:after {
     position: absolute;
     content: "";
     top: 0px;
@@ -1143,10 +1143,10 @@ body.opened .kura_tm_hero .down {
     background-color: #000;
     z-index: 1;
 }
-.kura_tm_main_title.light h3 {
+.jeff_tm_main_title.light h3 {
     color: #fff;
 }
-.kura_tm_skills .skills_inner {
+.jeff_tm_skills .skills_inner {
     width: 100%;
     float: left;
     height: auto;
@@ -1154,17 +1154,17 @@ body.opened .kura_tm_hero .down {
     position: relative;
     z-index: 3;
 }
-.kura_tm_skills .left {
+.jeff_tm_skills .left {
     width: 60%;
     padding-right: 200px;
 }
-.kura_tm_skills .text {
+.jeff_tm_skills .text {
     width: 100%;
     float: left;
     margin-top: 40px;
     margin-bottom: 44px;
 }
-.kura_tm_skills .text p {
+.jeff_tm_skills .text p {
     color: #bbb;
 }
 .dodo_progress {
@@ -1240,21 +1240,21 @@ body.opened .kura_tm_hero .down {
     }
 }
 
-.kura_tm_skills .right {
+.jeff_tm_skills .right {
     width: 40%;
     position: absolute;
     right: 0px;
     top: 0px;
     bottom: -220px;
 }
-.kura_tm_skills .my_video {
+.jeff_tm_skills .my_video {
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
 }
-.kura_tm_skills .my_image {
+.jeff_tm_skills .my_image {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -1264,66 +1264,66 @@ body.opened .kura_tm_hero .down {
     background-position: center;
     background-size: cover;
 }
-.kura_tm_skills .right[data-background-style="video"] .my_image {
+.jeff_tm_skills .right[data-background-style="video"] .my_image {
     display: none;
 }
-.kura_tm_skills .right[data-background-style="image"] .my_video {
+.jeff_tm_skills .right[data-background-style="image"] .my_video {
     display: none;
 }
 
 /*---------------------------------------------------*/
-/*	07) KURA TIMELINE
+/*	07) jeff TIMELINE
 /*---------------------------------------------------*/
 
-.kura_tm_timeline {
+.jeff_tm_timeline {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding: 140px 0px 113px 0px;
 }
-.kura_tm_timeline .timeline_list {
+.jeff_tm_timeline .timeline_list {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding-top: 54px;
 }
-.kura_tm_timeline .timeline_list ul {
+.jeff_tm_timeline .timeline_list ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_timeline .timeline_list ul li {
+.jeff_tm_timeline .timeline_list ul li {
     margin: 0px;
     width: 100%;
     float: left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 27px 0px 30px 0px;
 }
-.kura_tm_timeline .timeline_list ul li:last-child {
+.jeff_tm_timeline .timeline_list ul li:last-child {
     border-bottom: none;
 }
-.kura_tm_timeline .timeline_list ul li .list_inner {
+.jeff_tm_timeline .timeline_list ul li .list_inner {
     width: 33.3333%;
     float: left;
     padding-right: 40px;
 }
-.kura_tm_timeline .timeline_list ul li .list_inner:last-child {
+.jeff_tm_timeline .timeline_list ul li .list_inner:last-child {
     padding-right: 0px;
 }
-.kura_tm_timeline .timeline_list ul li .list_inner span {
+.jeff_tm_timeline .timeline_list ul li .list_inner span {
     display: inline-block;
     font-size: 18px;
 }
-.kura_tm_timeline .timeline_list ul li .list_inner:nth-child(2) span {
+.jeff_tm_timeline .timeline_list ul li .list_inner:nth-child(2) span {
     color: #000;
 }
 
 /*---------------------------------------------------*/
-/*	08) KURA PRICING
+/*	08) jeff PRICING
 /*---------------------------------------------------*/
 
-.kura_tm_pricing {
+.jeff_tm_pricing {
     width: 100%;
     height: auto;
     clear: both;
@@ -1331,43 +1331,43 @@ body.opened .kura_tm_hero .down {
     padding: 80px 0px 150px 0px;
     background-color: #f9f9f9;
 }
-.kura_tm_pricing .kura_tm_main_title {
+.jeff_tm_pricing .jeff_tm_main_title {
     margin-top: 58px;
 }
-.kura_tm_pricing .pricing_inner {
+.jeff_tm_pricing .pricing_inner {
     width: 100%;
     height: auto;
     clear: both;
     display: flex;
 }
-.kura_tm_pricing .left {
+.jeff_tm_pricing .left {
     width: 50%;
     padding-right: 100px;
 }
-.kura_tm_pricing .left .text {
+.jeff_tm_pricing .left .text {
     width: 100%;
     float: left;
     padding-top: 40px;
 }
-.kura_tm_pricing .right {
+.jeff_tm_pricing .right {
     width: 50%;
     padding-left: 100px;
 }
-.kura_tm_pricing .right ul {
+.jeff_tm_pricing .right ul {
     margin: 0px;
     list-style-type: none;
     margin-top: 58px;
 }
-.kura_tm_pricing .right ul li {
+.jeff_tm_pricing .right ul li {
     margin: 0px;
     width: 100%;
     float: left;
     margin-bottom: 30px;
 }
-.kura_tm_pricing .right ul li:last-child {
+.jeff_tm_pricing .right ul li:last-child {
     margin-bottom: 0px;
 }
-.kura_tm_pricing .right ul li .list_inner {
+.jeff_tm_pricing .right ul li .list_inner {
     width: 100%;
     height: auto;
     clear: both;
@@ -1386,10 +1386,10 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_pricing .right ul li .list_inner:hover {
+.jeff_tm_pricing .right ul li .list_inner:hover {
     background-color: #ff4522;
 }
-.kura_tm_pricing .right ul li span {
+.jeff_tm_pricing .right ul li span {
     font-size: 18px;
     color: #000;
     font-family: "Poppins";
@@ -1400,13 +1400,13 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_pricing .right ul li .list_inner:hover span {
+.jeff_tm_pricing .right ul li .list_inner:hover span {
     color: #fff;
 }
-.kura_tm_pricing .right .title {
+.jeff_tm_pricing .right .title {
     padding-right: 30px;
 }
-.kura_tm_pricing .right .svg {
+.jeff_tm_pricing .right .svg {
     position: absolute;
     left: 30px;
     width: 18px;
@@ -1422,43 +1422,43 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_pricing .right ul li .list_inner:hover .svg {
+.jeff_tm_pricing .right ul li .list_inner:hover .svg {
     color: #fff;
 }
 
 /*---------------------------------------------------*/
-/*	09) KURA NEWS
+/*	09) jeff NEWS
 /*---------------------------------------------------*/
 
-.kura_tm_news {
+.jeff_tm_news {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding: 140px 0px 140px 0px;
 }
-.kura_tm_news .news_list {
+.jeff_tm_news .news_list {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
     padding-top: 92px;
 }
-.kura_tm_news .news_list .list_inner {
+.jeff_tm_news .news_list .list_inner {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_news .news_list .image {
+.jeff_tm_news .news_list .image {
     position: relative;
 }
-.kura_tm_news .news_list .image img {
+.jeff_tm_news .news_list .image img {
     position: relative;
     min-width: 100%;
     opacity: 0;
 }
-.kura_tm_news .news_list .image .main {
+.jeff_tm_news .news_list .image .main {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -1469,7 +1469,7 @@ body.opened .kura_tm_hero .down {
     background-size: cover;
     border-radius: 10px;
 }
-.kura_tm_news .news_list .overlay {
+.jeff_tm_news .news_list .overlay {
     position: absolute;
     top: 10px;
     bottom: 10px;
@@ -1487,11 +1487,11 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_news .news_list .list_inner:hover .overlay {
+.jeff_tm_news .news_list .list_inner:hover .overlay {
     opacity: 1;
     visibility: visible;
 }
-.kura_tm_news .news_list .details {
+.jeff_tm_news .news_list .details {
     position: absolute;
     z-index: 2;
     bottom: 0px;
@@ -1506,20 +1506,20 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_news .news_list .list_inner:hover .details {
+.jeff_tm_news .news_list .list_inner:hover .details {
     opacity: 1;
     visibility: visible;
 }
-.kura_tm_news .news_list .details h3 {
+.jeff_tm_news .news_list .details h3 {
     font-size: 20px;
     font-weight: 700;
 }
-.kura_tm_news .news_list .details span {
+.jeff_tm_news .news_list .details span {
     font-family: "Poppins";
     margin-bottom: 6px;
     display: inline-block;
 }
-.kura_tm_news .news_list .list_inner .svg {
+.jeff_tm_news .news_list .list_inner .svg {
     position: absolute;
     top: 40px;
     right: 39px;
@@ -1537,33 +1537,33 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_news .news_list .list_inner:hover .svg {
+.jeff_tm_news .news_list .list_inner:hover .svg {
     opacity: 1;
     visibility: visible;
 }
-.kura_tm_news .news_hidden_details {
+.jeff_tm_news .news_hidden_details {
     display: none;
     opacity: 0;
     visibility: hidden;
     position: absolute;
     z-index: -11;
 }
-.kura_tm_modalbox .news_popup_informations {
+.jeff_tm_modalbox .news_popup_informations {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_modalbox .news_popup_informations .image {
+.jeff_tm_modalbox .news_popup_informations .image {
     position: relative;
     margin-bottom: 37px;
 }
-.kura_tm_modalbox .news_popup_informations .image img {
+.jeff_tm_modalbox .news_popup_informations .image img {
     position: relative;
     opacity: 0;
     min-width: 100%;
 }
-.kura_tm_modalbox .news_popup_informations .image .main {
+.jeff_tm_modalbox .news_popup_informations .image .main {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -1574,34 +1574,34 @@ body.opened .kura_tm_hero .down {
     background-position: center;
     border-radius: 10px;
 }
-.kura_tm_modalbox .news_popup_informations .details {
+.jeff_tm_modalbox .news_popup_informations .details {
     width: 100%;
     float: left;
     margin-bottom: 20px;
 }
-.kura_tm_modalbox .news_popup_informations .details span {
+.jeff_tm_modalbox .news_popup_informations .details span {
     display: inline-block;
     margin-bottom: 7px;
 }
-.kura_tm_modalbox .news_popup_informations .details h3 {
+.jeff_tm_modalbox .news_popup_informations .details h3 {
     font-size: 22px;
 }
-.kura_tm_modalbox .news_popup_informations .text {
+.jeff_tm_modalbox .news_popup_informations .text {
     width: 100%;
     float: left;
 }
-.kura_tm_modalbox .news_popup_informations .text p {
+.jeff_tm_modalbox .news_popup_informations .text p {
     margin-bottom: 15px;
 }
-.kura_tm_modalbox .news_popup_informations .text p:last-child {
+.jeff_tm_modalbox .news_popup_informations .text p:last-child {
     margin-bottom: 0px;
 }
 
 /*---------------------------------------------------*/
-/*	10) KURA CONTACT
+/*	10) jeff CONTACT
 /*---------------------------------------------------*/
 
-.kura_tm_contact {
+.jeff_tm_contact {
     width: 100%;
     height: auto;
     clear: both;
@@ -1609,7 +1609,7 @@ body.opened .kura_tm_hero .down {
     background-color: #f9f9f9;
     padding: 140px 0px 119px 0px;
 }
-.kura_tm_contact .contact_inner {
+.jeff_tm_contact .contact_inner {
     width: 100%;
     height: auto;
     clear: both;
@@ -1617,29 +1617,29 @@ body.opened .kura_tm_hero .down {
     display: flex;
     margin-top: 40px;
 }
-.kura_tm_contact .left {
+.jeff_tm_contact .left {
     width: 50%;
     padding-right: 100px;
 }
-.kura_tm_contact .left .text {
+.jeff_tm_contact .left .text {
     width: 100%;
     float: left;
     margin-bottom: 42px;
 }
-.kura_tm_contact .short {
+.jeff_tm_contact .short {
     width: 100%;
     float: left;
 }
-.kura_tm_contact .short ul {
+.jeff_tm_contact .short ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_contact .short ul li {
+.jeff_tm_contact .short ul li {
     margin: 0px 0px 23px 0px;
     width: 100%;
     float: left;
 }
-.kura_tm_contact .short ul li .list_inner {
+.jeff_tm_contact .short ul li .list_inner {
     width: 100%;
     height: auto;
     clear: both;
@@ -1647,7 +1647,7 @@ body.opened .kura_tm_hero .down {
     position: relative;
     padding-left: 30px;
 }
-.kura_tm_contact .short ul li .list_inner .svg {
+.jeff_tm_contact .short ul li .list_inner .svg {
     position: absolute;
     left: 0px;
     width: 18px;
@@ -1657,44 +1657,44 @@ body.opened .kura_tm_hero .down {
     transform: translateY(-50%);
     color: #ff4522;
 }
-.kura_tm_contact .short ul li .list_inner span {
+.jeff_tm_contact .short ul li .list_inner span {
     font-size: 18px;
     color: #000;
     font-family: "Poppins";
 }
-.kura_tm_contact .right {
+.jeff_tm_contact .right {
     width: 50%;
     padding-left: 100px;
 }
-.kura_tm_contact .fields {
+.jeff_tm_contact .fields {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_contact .fields .first {
+.jeff_tm_contact .fields .first {
     width: 100%;
     float: left;
 }
-.kura_tm_contact .fields ul {
+.jeff_tm_contact .fields ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_contact .fields ul li {
+.jeff_tm_contact .fields ul li {
     width: 100%;
     margin: 0px 0px 30px 0px;
     float: left;
 }
-.kura_tm_contact .fields ul li input {
+.jeff_tm_contact .fields ul li input {
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
 }
-.kura_tm_contact .fields ul li input:focus {
+.jeff_tm_contact .fields ul li input:focus {
     outline: none;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
-.kura_tm_contact .fields .last textarea {
+.jeff_tm_contact .fields .last textarea {
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     height: 44px;
@@ -1702,35 +1702,36 @@ body.opened .kura_tm_hero .down {
     margin-bottom: 20px;
     background-color: transparent;
 }
-.kura_tm_contact .fields .last textarea:focus {
+.jeff_tm_contact .fields .last textarea:focus {
     outline: none;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
-.kura_tm_contact .empty_notice {
+.jeff_tm_contact .empty_notice {
     color: #f52225;
     margin-bottom: 7px;
     display: none;
     text-align: left;
     font-weight: 500;
 }
-.kura_tm_contact .contact_error {
+.jeff_tm_contact .contact_error {
     color: #f52225;
     text-align: left;
     font-weight: 500;
 }
-.kura_tm_contact .returnmessage {
+.jeff_tm_contact .returnmessage {
     color: #3a00ff;
     margin-bottom: 7px;
     text-align: left;
     font-weight: 500;
 }
-.kura_tm_button {
+.jeff_tm_button {
     width: 100%;
+    margin-top: 20px;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_button a {
+.jeff_tm_button a {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
@@ -1746,7 +1747,7 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_button a .svg {
+.jeff_tm_button a .svg {
     position: relative;
     top: 2px;
     width: 17px;
@@ -1759,19 +1760,19 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_button a:hover {
+.jeff_tm_button a:hover {
     color: #fff;
     background-color: #000;
 }
-.kura_tm_button a:hover .svg {
+.jeff_tm_button a:hover .svg {
     transform: rotate(-50deg);
 }
 
 /*---------------------------------------------------*/
-/*	11) KURA COPYRIGHT
+/*	11) jeff COPYRIGHT
 /*---------------------------------------------------*/
 
-.kura_tm_copyright {
+.jeff_tm_copyright {
     width: 100%;
     height: auto;
     clear: both;
@@ -1780,7 +1781,7 @@ body.opened .kura_tm_hero .down {
     padding: 28px 0px 32px 0px;
     text-align: center;
 }
-.kura_tm_copyright .copyright_inner {
+.jeff_tm_copyright .copyright_inner {
     width: 100%;
     height: auto;
     clear: both;
@@ -1789,27 +1790,27 @@ body.opened .kura_tm_hero .down {
     align-items: center;
     justify-content: space-between;
 }
-.kura_tm_copyright .text p {
+.jeff_tm_copyright .text p {
     color: #fff;
 }
-.kura_tm_copyright .social ul {
+.jeff_tm_copyright .social ul {
     margin: 0px;
     list-style-type: none;
 }
-.kura_tm_copyright .social ul li {
+.jeff_tm_copyright .social ul li {
     margin: 0px 20px 0px 0px;
     display: inline-block;
 }
-.kura_tm_copyright .social ul li:last-child {
+.jeff_tm_copyright .social ul li:last-child {
     margin-right: 0px;
 }
-.kura_tm_copyright .social ul li a {
+.jeff_tm_copyright .social ul li a {
     text-decoration: none;
     color: #fff;
 }
 
 /*---------------------------------------------------*/
-/*	12) KURA CURSOR
+/*	12) jeff CURSOR
 /*---------------------------------------------------*/
 
 .mouse-cursor {
@@ -1858,7 +1859,7 @@ body.opened .kura_tm_hero .down {
 .cursor-outer.cursor-hover {
     opacity: 0;
 }
-.kura_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
+.jeff_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
     display: none;
     opacity: 0;
     visibility: hidden;
@@ -1870,7 +1871,7 @@ body.opened .kura_tm_hero .down {
 /*  ARLO SETTINGS
 /*---------------------------------------------------*/
 
-.kura_tm_settings {
+.jeff_tm_settings {
     position: fixed;
     z-index: 10;
     top: 25%;
@@ -1885,29 +1886,29 @@ body.opened .kura_tm_hero .down {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_settings.opened {
+.jeff_tm_settings.opened {
     right: 0px;
 }
-.kura_tm_settings .wrapper {
+.jeff_tm_settings .wrapper {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
 }
-.kura_tm_settings .icon {
+.jeff_tm_settings .icon {
     position: absolute;
     top: 0px;
     right: 100%;
     background-color: #000;
     padding: 12px 12px 4px 12px;
 }
-.kura_tm_settings .icon .svg {
+.jeff_tm_settings .icon .svg {
     color: #fff;
     width: 25px;
     height: 25px;
     animation: fa-spin 2s infinite linear;
 }
-.kura_tm_settings .link {
+.jeff_tm_settings .link {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -1936,14 +1937,14 @@ body.opened .kura_tm_hero .down {
         transform: rotate(359deg);
     }
 }
-.kura_tm_settings .title {
+.jeff_tm_settings .title {
     color: #fff;
     font-family: "Poppins";
     font-weight: 600;
     position: relative;
     display: inline-block;
 }
-.kura_tm_settings .title:before {
+.jeff_tm_settings .title:before {
     position: absolute;
     content: "";
     width: 100%;
@@ -1952,111 +1953,111 @@ body.opened .kura_tm_hero .down {
     left: 0px;
     bottom: 0px;
 }
-.kura_tm_settings .colors {
+.jeff_tm_settings .colors {
     margin: 0px 0px 22px 0px;
     list-style-type: none;
     padding-top: 32px;
 }
-.kura_tm_settings .colors li {
+.jeff_tm_settings .colors li {
     margin: 0px;
     display: inline-block;
 }
-.kura_tm_settings .colors li a {
+.jeff_tm_settings .colors li a {
     text-decoration: none;
     display: inline-block;
     width: 30px;
     height: 30px;
     border-radius: 100%;
 }
-.kura_tm_settings .direction {
+.jeff_tm_settings .direction {
     list-style-type: none;
     margin: 0px;
 }
-.kura_tm_settings .direction li {
+.jeff_tm_settings .direction li {
     margin: 0px 20px 0px 0px;
     display: inline-block;
 }
-.kura_tm_settings .direction li a {
+.jeff_tm_settings .direction li a {
     opacity: 0.4;
     text-decoration: none;
     color: #fff;
 }
-.kura_tm_settings .direction li a.active {
+.jeff_tm_settings .direction li a.active {
     opacity: 1;
 }
-.kura_tm_settings .direction li .svg {
+.jeff_tm_settings .direction li .svg {
     width: 25px;
     height: 25px;
 }
-.kura_tm_settings .colors li.bl {
+.jeff_tm_settings .colors li.bl {
     display: inline-block;
 }
-.kura_tm_settings .colors li.wh {
+.jeff_tm_settings .colors li.wh {
     display: none;
 }
-body.dark .kura_tm_settings .colors li.bl,
-.kura_tm_settings.changed .colors li.bl {
+body.dark .jeff_tm_settings .colors li.bl,
+.jeff_tm_settings.changed .colors li.bl {
     display: none;
 }
-body.dark .kura_tm_settings .colors li.wh,
-.kura_tm_settings.changed .colors li.wh {
+body.dark .jeff_tm_settings .colors li.wh,
+.jeff_tm_settings.changed .colors li.wh {
     display: inline-block;
 }
-body.dark .kura_tm_settings,
-.kura_tm_settings.changed {
+body.dark .jeff_tm_settings,
+.jeff_tm_settings.changed {
     background-color: #fff;
 }
-body.dark .kura_tm_settings .icon,
-.kura_tm_settings.changed .icon {
+body.dark .jeff_tm_settings .icon,
+.jeff_tm_settings.changed .icon {
     background-color: #fff;
 }
-body.dark .kura_tm_settings .icon .svg,
-.kura_tm_settings.changed .icon .svg {
+body.dark .jeff_tm_settings .icon .svg,
+.jeff_tm_settings.changed .icon .svg {
     color: #000;
 }
-body.dark .kura_tm_settings .title,
-.kura_tm_settings.changed .title {
+body.dark .jeff_tm_settings .title,
+.jeff_tm_settings.changed .title {
     color: #000;
 }
-body.dark .kura_tm_settings .title:before,
-.kura_tm_settings.changed .title:before {
+body.dark .jeff_tm_settings .title:before,
+.jeff_tm_settings.changed .title:before {
     background-color: rgba(0, 0, 0, 0.5);
 }
-body.dark .kura_tm_settings .direction li a,
-.kura_tm_settings.changed .direction li a {
+body.dark .jeff_tm_settings .direction li a,
+.jeff_tm_settings.changed .direction li a {
     color: #000;
 }
-body.dark .kura_tm_settings .cursor li:nth-child(1) a,
-.kura_tm_settings.changed .cursor li:nth-child(1) a {
+body.dark .jeff_tm_settings .cursor li:nth-child(1) a,
+.jeff_tm_settings.changed .cursor li:nth-child(1) a {
     border-color: #000;
 }
-body.dark .kura_tm_settings .cursor li:nth-child(1) a:before,
-.kura_tm_settings.changed .cursor li:nth-child(1) a:before {
+body.dark .jeff_tm_settings .cursor li:nth-child(1) a:before,
+.jeff_tm_settings.changed .cursor li:nth-child(1) a:before {
     background-color: #000;
 }
-body.dark .kura_tm_settings .cursor li .svg,
-.kura_tm_settings.changed .cursor li .svg {
+body.dark .jeff_tm_settings .cursor li .svg,
+.jeff_tm_settings.changed .cursor li .svg {
     color: #000;
 }
-.kura_tm_settings .cursor {
+.jeff_tm_settings .cursor {
     margin: 0px;
     list-style-type: none;
     padding-top: 20px;
 }
-.kura_tm_settings .cursor li {
+.jeff_tm_settings .cursor li {
     margin: 0px 20px 0px 0px;
     display: inline-block;
 }
-.kura_tm_settings .cursor li a {
+.jeff_tm_settings .cursor li a {
     text-decoration: none;
     color: #fff;
     opacity: 0.4;
     font-weight: 600;
 }
-.kura_tm_settings .cursor li a.showme {
+.jeff_tm_settings .cursor li a.showme {
     opacity: 1;
 }
-.kura_tm_settings .cursor li:nth-child(1) a {
+.jeff_tm_settings .cursor li:nth-child(1) a {
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -2064,7 +2065,7 @@ body.dark .kura_tm_settings .cursor li .svg,
     position: relative;
     display: inline-block;
 }
-.kura_tm_settings .cursor li:nth-child(1) a:before {
+.jeff_tm_settings .cursor li:nth-child(1) a:before {
     position: absolute;
     content: "";
     width: 4px;
@@ -2075,22 +2076,22 @@ body.dark .kura_tm_settings .cursor li .svg,
     left: 50%;
     top: 50%;
 }
-.kura_tm_settings .cursor li .svg {
+.jeff_tm_settings .cursor li .svg {
     width: 25px;
     height: 25px;
     color: #fff;
 }
-.kura_tm_settings .cursor li:nth-child(2) {
+.jeff_tm_settings .cursor li:nth-child(2) {
     position: relative;
     top: -2px;
 }
-.kura_tm_settings .effect {
+.jeff_tm_settings .effect {
     margin: 0px;
     list-style-type: none;
     padding-top: 15px;
     padding-bottom: 25px;
 }
-.kura_tm_settings .effect li {
+.jeff_tm_settings .effect li {
     margin: 0px 0px 5px 0px;
     display: inline-block;
     width: 30px;
@@ -2101,7 +2102,7 @@ body.dark .kura_tm_settings .cursor li .svg,
     background-color: #fff;
     opacity: 0.4;
 }
-.kura_tm_settings .effect li a {
+.jeff_tm_settings .effect li a {
     text-decoration: none;
     color: #000;
     font-size: 13px;
@@ -2111,37 +2112,37 @@ body.dark .kura_tm_settings .cursor li .svg,
     position: relative;
     top: 2px;
 }
-.kura_tm_settings .effect li.selected {
+.jeff_tm_settings .effect li.selected {
     background-color: #fff;
     opacity: 1;
 }
 
 /*---------------------------------------------------*/
-/*	 KURA INTRO
+/*	 jeff INTRO
 /*---------------------------------------------------*/
 
-.kura_tm_intro .short_info {
+.jeff_tm_intro .short_info {
     position: fixed;
     top: 10%;
     width: 100%;
     text-align: center;
 }
-.kura_tm_intro .short_info img {
+.jeff_tm_intro .short_info img {
     margin-bottom: 25px;
     max-width: 110px;
 }
-.kura_tm_intro .short_info h3 {
+.jeff_tm_intro .short_info h3 {
     font-size: 20px;
     color: #767676;
 }
-.kura_tm_intro {
+.jeff_tm_intro {
     width: 100%;
     height: 100vh;
     clear: both;
     float: left;
     position: relative;
 }
-.kura_tm_intro .demos {
+.jeff_tm_intro .demos {
     width: 100%;
     height: 100%;
     clear: both;
@@ -2150,8 +2151,8 @@ body.dark .kura_tm_settings .cursor li .svg,
     text-align: center;
     position: relative;
 }
-.kura_tm_intro .left,
-.kura_tm_intro .right {
+.jeff_tm_intro .left,
+.jeff_tm_intro .right {
     width: 50%;
     height: 100%;
     display: flex;
@@ -2159,11 +2160,11 @@ body.dark .kura_tm_settings .cursor li .svg,
     justify-content: center;
     position: relative;
 }
-.kura_tm_intro .demos img {
+.jeff_tm_intro .demos img {
     max-width: 400px;
     margin-bottom: 25px;
 }
-.kura_tm_intro .desc {
+.jeff_tm_intro .desc {
     position: relative;
     top: 0px;
 
@@ -2173,13 +2174,13 @@ body.dark .kura_tm_settings .cursor li .svg,
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.kura_tm_intro .desc h3 {
+.jeff_tm_intro .desc h3 {
     font-size: 20px;
     font-weight: 800;
 }
-.kura_tm_intro .intro_line,
-.kura_tm_intro .intro_line_2,
-.kura_tm_intro .intro_line_3 {
+.jeff_tm_intro .intro_line,
+.jeff_tm_intro .intro_line_2,
+.jeff_tm_intro .intro_line_3 {
     position: fixed;
     top: 0px;
     width: 1px;
@@ -2189,17 +2190,17 @@ body.dark .kura_tm_settings .cursor li .svg,
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.06);
 }
-.kura_tm_intro .intro_line {
+.jeff_tm_intro .intro_line {
     left: 25%;
 }
-.kura_tm_intro .intro_line_2 {
+.jeff_tm_intro .intro_line_2 {
     left: 50%;
     transform: translateY(-50%);
 }
-.kura_tm_intro .intro_line_3 {
+.jeff_tm_intro .intro_line_3 {
     left: 75%;
 }
-.kura_tm_intro .intro_link {
+.jeff_tm_intro .intro_link {
     position: absolute;
     z-index: 2;
     top: 0px;
@@ -2207,14 +2208,14 @@ body.dark .kura_tm_settings .cursor li .svg,
     left: 0px;
     right: 0px;
 }
-.kura_tm_intro .left:hover .desc {
+.jeff_tm_intro .left:hover .desc {
     top: -20px;
 }
-.kura_tm_intro .right:hover .desc {
+.jeff_tm_intro .right:hover .desc {
     top: -20px;
 }
-.kura_tm_intro_fixed_price .pricing-info,
-.kura_tm_intro_fixed_price .anim {
+.jeff_tm_intro_fixed_price .pricing-info,
+.jeff_tm_intro_fixed_price .anim {
     text-decoration: none;
     color: #fff;
     font-family: "Montserrat";
@@ -2272,39 +2273,39 @@ body.dark .kura_tm_settings .cursor li .svg,
     }
 }
 
-.kura_tm_intro_fixed_price .anim:nth-child(1) {
+.jeff_tm_intro_fixed_price .anim:nth-child(1) {
     -webkit-animation: myAnim 2s infinite;
     animation: myAnim 2s infinite;
 }
 
-.kura_tm_intro_fixed_price .anim:nth-child(2) {
+.jeff_tm_intro_fixed_price .anim:nth-child(2) {
     -webkit-animation: myAnim 2s infinite 0.3s;
     animation: myAnim 2s infinite 0.3s;
 }
 
-.kura_tm_intro_fixed_price .anim:nth-child(3) {
+.jeff_tm_intro_fixed_price .anim:nth-child(3) {
     -webkit-animation: myAnim 2s infinite 0.6s;
     animation: myAnim 2s infinite 0.6s;
 }
 
 /*---------------------------------------------------*/
-/*	13) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	13) jeff MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1400px) {
     .container {
         max-width: 1170px;
     }
-    .kura_tm_hero .name {
+    .jeff_tm_hero .name {
         margin-bottom: 10px;
     }
-    .kura_tm_hero .job {
+    .jeff_tm_hero .job {
         font-size: 40px;
     }
-    .kura_tm_hero .services ul li a {
+    .jeff_tm_hero .services ul li a {
         padding: 6px 0px;
     }
-    .kura_tm_modalbox .box_inner {
+    .jeff_tm_modalbox .box_inner {
         width: 700px;
     }
 }
@@ -2312,164 +2313,164 @@ body.dark .kura_tm_settings .cursor li .svg,
     .mouse-cursor {
         display: none;
     }
-    .kura_tm_topbar {
+    .jeff_tm_topbar {
         display: none;
     }
-    .kura_tm_mobile_menu {
+    .jeff_tm_mobile_menu {
         display: block;
     }
-    .kura_tm_hero {
+    .jeff_tm_hero {
         padding: 150px 0px 120px 0px;
     }
-    .kura_tm_hero .content {
+    .jeff_tm_hero .content {
         flex-direction: column-reverse;
         justify-content: space-around;
         align-items: baseline;
     }
-    .kura_tm_hero .content .right {
+    .jeff_tm_hero .content .right {
         padding-left: 0px;
         margin-bottom: 60px;
         width: 100%;
     }
-    .kura_tm_hero .content .left {
+    .jeff_tm_hero .content .left {
         padding-right: 0px;
         width: 100%;
     }
-    .kura_tm_hero .content .right .image .shape {
+    .jeff_tm_hero .content .right .image .shape {
         display: none;
     }
-    .kura_tm_hero .content .right .image .main {
+    .jeff_tm_hero .content .right .image .main {
         transform: rotate(0deg);
     }
-    body.opened .kura_tm_hero .content .right .image .main {
+    body.opened .jeff_tm_hero .content .right .image .main {
         transform: rotate(0deg);
     }
-    .kura_tm_hero .job {
+    .jeff_tm_hero .job {
         font-size: 35px;
     }
-    .kura_tm_hero .down {
+    .jeff_tm_hero .down {
         display: none;
     }
-    .kura_tm_skills .right {
+    .jeff_tm_skills .right {
         display: none;
     }
-    .kura_tm_skills .left {
+    .jeff_tm_skills .left {
         width: 100%;
         padding-right: 0px;
     }
-    .kura_tm_pricing .pricing_inner {
+    .jeff_tm_pricing .pricing_inner {
         flex-direction: column;
     }
-    .kura_tm_pricing .left {
+    .jeff_tm_pricing .left {
         width: 100%;
         padding-right: 0px;
     }
-    .kura_tm_pricing .right {
+    .jeff_tm_pricing .right {
         width: 100%;
         padding-left: 0px;
     }
-    .kura_tm_contact .contact_inner {
+    .jeff_tm_contact .contact_inner {
         flex-direction: column;
     }
-    .kura_tm_contact .left {
+    .jeff_tm_contact .left {
         width: 100%;
         padding-right: 0px;
         margin-bottom: 30px;
     }
-    .kura_tm_contact .right {
+    .jeff_tm_contact .right {
         width: 100%;
         padding-left: 0px;
     }
-    .kura_tm_modalbox .box_inner {
+    .jeff_tm_modalbox .box_inner {
         width: 500px;
     }
-    .kura_tm_modalbox .close .svg {
+    .jeff_tm_modalbox .close .svg {
         width: 40px;
         height: 40px;
     }
 
-    .kura_tm_intro .demos img {
+    .jeff_tm_intro .demos img {
         max-width: 100px;
     }
 }
 @media (max-width: 768px) {
-    .kura_tm_hero .job {
+    .jeff_tm_hero .job {
         font-size: 30px;
     }
-    .kura_tm_hero .short_info ul li h3 {
+    .jeff_tm_hero .short_info ul li h3 {
         font-size: 35px;
     }
-    .kura_tm_hero .short_info ul li span {
+    .jeff_tm_hero .short_info ul li span {
         font-size: 13px;
     }
-    .kura_tm_portfolio .portfolio_list .image .svg {
+    .jeff_tm_portfolio .portfolio_list .image .svg {
         width: 35px;
         height: 35px;
         top: 33px;
         right: 32px;
     }
-    .kura_tm_portfolio .portfolio_list .details {
+    .jeff_tm_portfolio .portfolio_list .details {
         bottom: 31px;
         left: 39px;
     }
-    .kura_tm_portfolio .portfolio_list .details h3 {
+    .jeff_tm_portfolio .portfolio_list .details h3 {
         font-size: 18px;
     }
-    .kura_tm_main_title h3 {
+    .jeff_tm_main_title h3 {
         font-size: 25px;
     }
-    .kura_tm_main_title span {
+    .jeff_tm_main_title span {
         margin-bottom: 6px;
     }
-    .kura_tm_timeline .timeline_list ul li .list_inner {
+    .jeff_tm_timeline .timeline_list ul li .list_inner {
         width: 100%;
         padding-right: 0px;
         margin-bottom: 15px;
     }
-    .kura_tm_timeline .timeline_list ul li .list_inner:last-child {
+    .jeff_tm_timeline .timeline_list ul li .list_inner:last-child {
         margin-bottom: 0px;
     }
-    .kura_tm_pricing .right ul li span {
+    .jeff_tm_pricing .right ul li span {
         font-size: 16px;
     }
-    .kura_tm_news .news_list .list_inner .svg {
+    .jeff_tm_news .news_list .list_inner .svg {
         width: 35px;
         height: 35px;
         top: 33px;
         right: 32px;
     }
-    .kura_tm_news .news_list .details {
+    .jeff_tm_news .news_list .details {
         padding: 0px 30px 36px 39px;
     }
-    .kura_tm_news .news_list .details h3 {
+    .jeff_tm_news .news_list .details h3 {
         font-size: 18px;
     }
-    .kura_tm_contact .short ul li .list_inner span {
+    .jeff_tm_contact .short ul li .list_inner span {
         font-size: 16px;
     }
-    .kura_tm_copyright .copyright_inner {
+    .jeff_tm_copyright .copyright_inner {
         flex-direction: column;
     }
-    .kura_tm_copyright .copyright_inner .text {
+    .jeff_tm_copyright .copyright_inner .text {
         margin-bottom: 10px;
     }
-    .kura_tm_modalbox .box_inner {
+    .jeff_tm_modalbox .box_inner {
         width: 360px;
     }
-    .kura_tm_modalbox .close .svg {
+    .jeff_tm_modalbox .close .svg {
         width: 20px;
         height: 20px;
     }
-    .kura_tm_modalbox .close {
+    .jeff_tm_modalbox .close {
         margin-left: 10px;
     }
-    .kura_tm_modalbox .description_wrap {
+    .jeff_tm_modalbox .description_wrap {
         padding: 30px;
     }
-    .kura_tm_modalbox .title h3 {
+    .jeff_tm_modalbox .title h3 {
         font-size: 20px;
     }
-    .kura_tm_modalbox .news_popup_informations .details h3 {
+    .jeff_tm_modalbox .news_popup_informations .details h3 {
         font-size: 20px;
     }
 }

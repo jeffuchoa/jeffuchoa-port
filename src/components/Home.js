@@ -16,12 +16,12 @@ const Home = () => {
     setModalValue({ img: null, title: "" });
   };
   return (
-    <div className="kura_tm_section" id="home">
-      <div className="kura_tm_hero">
+    <div className="jeff_tm_section" id="home">
+      <div className="jeff_tm_hero">
         <div className="container">
           <div className="content">
             <div className="left">
-              <span className="name">Jefferson Uchoa</span>
+              <span className="name">jefferson Uchoa</span>
               <h3 className="job">Desenvolvedor e Designer</h3>
               <div className="services">
                 <ul>

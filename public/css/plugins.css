@@ -5035,8 +5035,8 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 
 
 
-.kura_tm_all_wrap .slick-button-prev,
-.kura_tm_all_wrap .slick-button-next {
+.jeff_tm_all_wrap .slick-button-prev,
+.jeff_tm_all_wrap .slick-button-next {
     color: #fff !important;
 }
 

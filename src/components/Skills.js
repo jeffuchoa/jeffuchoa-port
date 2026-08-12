@@ -12,12 +12,12 @@ const Skills = () => {
   });
 
   return (
-    <div className="kura_tm_section" id="skills">
-      <div className="kura_tm_skills">
+    <div className="jeff_tm_section" id="skills">
+      <div className="jeff_tm_skills">
         <div className="container">
           <div className="skills_inner">
             <div className="left">
-              <div className="kura_tm_main_title light">
+              <div className="jeff_tm_main_title light">
                 <span>Skills</span>
                 <h3>Minhas Habilidades</h3>
               </div>
@@ -67,12 +67,11 @@ const Skills = () => {
               </div>
             </div>
             <div className="right">
-              <ParallaxVideo />
               <div
                 className="my_image jarallax"
                 data-speed="0"
                 style={{
-                  backgroundImage: "url(/img/portfolio/2.jpg)",
+                  backgroundImage: "url(/img/portfolio/background.webp)",
                 }}
               ></div>
             </div>

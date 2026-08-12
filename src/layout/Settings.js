@@ -8,7 +8,7 @@ const Settings = () => {
     colors.forEach((color) => {
       color.addEventListener("click", () => {
         document
-          .querySelector(".kura_tm_all_wrap")
+          .querySelector(".jeff_tm_all_wrap")
           .setAttribute("data-color", color.classList[0]);
       });
     });
@@ -17,13 +17,13 @@ const Settings = () => {
   const onClick = (value) => {
     setCursor(value);
     document
-      .querySelector(".kura_tm_all_wrap")
+      .querySelector(".jeff_tm_all_wrap")
       .setAttribute("data-magic-cursor", value === 1 ? "show" : "hide");
   };
 
   return (
     <div>
-      <div className={`kura_tm_settings ${toggle ? "opened" : ""}`}>
+      <div className={`jeff_tm_settings ${toggle ? "opened" : ""}`}>
         <div className="icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"

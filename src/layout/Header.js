@@ -16,7 +16,7 @@ const Header = ({ dark }) => {
 
   return (
     <Fragment>
-      <div className={"kura_tm_topbar"}>
+      <div className={"jeff_tm_topbar"}>
         <div className="wrapper">
           <div className="topbar_inner">
             <div className="logo">
@@ -68,7 +68,7 @@ const Header = ({ dark }) => {
           </div>
         </div>
       </div>
-      <div className="kura_tm_mobile_menu">
+      <div className="jeff_tm_mobile_menu">
         <div className="mobile_menu_inner">
           <div className="mobile_in">
             <div className="logo">

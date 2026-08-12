@@ -9,14 +9,14 @@ const IMAGES = [
     link: "https://jeffuchoa.github.io/Donas-de-Luxo/",
     thumbnail: "/img/portfolio/1.jpg",
     title: "Donas D' Luxo",
-    sub: "Landing Page",
+    sub: "Landing Page"
   },
   {
     src: "/img/portfolio/2.webp",
     link: "https://jeffuchoa.github.io/RF-TEAM/",
     thumbnail: "/img/portfolio/2.webp",
     title: "RF Team",
-    sub: "Landing Page",
+    sub: "Landing Page"
   },
 
   {
@@ -24,7 +24,7 @@ const IMAGES = [
     link: "https://www.figma.com/proto/BY0uQ3QhCX0umqH36Hffz6/Clinica-Jana%C3%ADna-Queiroz?node-id=756-312&t=uMcCBmYT7SDkLkQY-1&scaling=min-zoom&content-scaling=fixed&page-id=204%3A204&starting-point-node-id=756%3A312&show-proto-sidebar=1",
     thumbnail: "/img/portfolio/3.webp",
     title: "Janaina Queiroz",
-    sub: "UI/UX",
+    sub: "UI/UX"
   },
 ];
 
@@ -42,10 +42,10 @@ const Portfolio = () => {
   };
   return (
     <Fragment>
-      <div className="kura_tm_section" id="portfolio">
-        <div className="kura_tm_portfolio">
+      <div className="jeff_tm_section" id="portfolio">
+        <div className="jeff_tm_portfolio">
           <div className="container">
-            <div className="kura_tm_main_title">
+            <div className="jeff_tm_main_title">
               <span>Portfolio</span>
               <h3>Trabalhos Selecionados</h3>
             </div>
@@ -79,14 +79,14 @@ const Portfolio = () => {
                             </div>
                           </div>
                           <a href={image.link} target="_blank"
-                            className="kura_tm_full_link popup-vimeo"
+                            className="jeff_tm_full_link popup-vimeo"
                           ></a>
                         </div>
                       </SwiperSlide>
                     ))}
                   </Swiper>
                 </div>
-                <div className="kura_tm_swiper_progress fill">
+                <div className="jeff_tm_swiper_progress fill">
                   <div className="my_pagination_in"></div>
                   <div className="my_navigation">
                     <ul>

@@ -1,4 +1,4 @@
-const kura_tm_preloader = () => {
+const jeff_tm_preloader = () => {
   let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
     navigator.userAgent
   )
@@ -30,7 +30,7 @@ export const wowJsAnimation = () => {
 export const customCursor = () => {
   var myCursor = document.querySelectorAll(".mouse-cursor"),
     hamburger = document.querySelector(".hamburger"),
-    kura_tm_topbar = document.querySelector(".kura_tm_topbar "),
+    jeff_tm_topbar = document.querySelector(".jeff_tm_topbar "),
     pointer = document.querySelector(".cursor-pointer"),
     e = document.querySelector(".cursor-inner"),
     t = document.querySelector(".cursor-outer");
@@ -60,7 +60,7 @@ export const customCursor = () => {
       }),
         document.body.addEventListener(
           "mouseenter",
-          // "a,.kura_tm_topbar .trigger, .cursor-pointer",
+          // "a,.jeff_tm_topbar .trigger, .cursor-pointer",
           function () {
             let a = document.querySelectorAll("a");
             e.classList.add("cursor-inner"), t.classList.add("cursor-outer");
@@ -71,7 +71,7 @@ export const customCursor = () => {
             }
 
             hamburger && mouseEvent(hamburger);
-            kura_tm_topbar && mouseEvent(kura_tm_topbar);
+            jeff_tm_topbar && mouseEvent(jeff_tm_topbar);
             pointer && mouseEvent(pointer);
           }
         ),
@@ -81,8 +81,8 @@ export const customCursor = () => {
   }
 };
 
-export const kura_tm_my_load = () => {
-  kura_tm_preloader();
+export const jeff_tm_my_load = () => {
+  jeff_tm_preloader();
   setTimeout(() => {
     document.querySelector("body").classList.add("opened");
   }, 1500);
@@ -91,7 +91,7 @@ export const kura_tm_my_load = () => {
 // Header
 export const stickyNav = () => {
   let offset = window.scrollY;
-  const stickys = document.querySelectorAll(".kura_tm_topbar");
+  const stickys = document.querySelectorAll(".jeff_tm_topbar");
   stickys.forEach((sticky) => {
     if (sticky) {
       if (offset > 100) {
@@ -186,7 +186,7 @@ export const aTagClick = () => {
 };
 
 export const scroll_ = () => {
-  const sections = document.querySelectorAll(".kura_tm_section");
+  const sections = document.querySelectorAll(".jeff_tm_section");
   const navLi = document.querySelectorAll(".anchor_nav li");
   let current = "";
   sections.forEach((section) => {

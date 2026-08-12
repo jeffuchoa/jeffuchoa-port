@@ -16,7 +16,7 @@ export const NewsModal = ({ open, onCloseModal, img, title, date }) => {
             </div>
             <div className="text">
               <p>
-                Kura is a leading web design agency with an award-winning design
+                jeff is a leading web design agency with an award-winning design
                 team that creates innovative, effective websites that capture
                 your brand, improve your conversion rates, and maximize your
                 revenue to help grow your business and achieve your goals.
@@ -30,7 +30,7 @@ export const NewsModal = ({ open, onCloseModal, img, title, date }) => {
               </p>
               <p>
                 That’s why more companies are not only reevaluating their
-                website’s design but also partnering with Kura, the web design
+                website’s design but also partnering with jeff, the web design
                 agency that’s driven more than $2.4 billion in revenue for its
                 clients. With over 50 web design awards under our belt, we're
                 confident we can design a custom website that drives sales for
@@ -62,7 +62,7 @@ export const HomeModal = ({ open, onCloseModal, img, title, date }) => {
               <div className="popup_informations">
                 <div className="description">
                   <p>
-                    Kura is a leading web design agency with an award-winning
+                    jeff is a leading web design agency with an award-winning
                     design team that creates innovative, effective websites that
                     capture your brand, improve your conversion rates, and
                     maximize your revenue to help grow your business and achieve
@@ -77,7 +77,7 @@ export const HomeModal = ({ open, onCloseModal, img, title, date }) => {
                   </p>
                   <p>
                     That’s why more companies are not only reevaluating their
-                    website’s design but also partnering with Kura, the web
+                    website’s design but also partnering with jeff, the web
                     design agency that’s driven more than $2.4 billion in
                     revenue for its clients. With over 50 web design awards
                     under our belt, we're confident we can design a custom
