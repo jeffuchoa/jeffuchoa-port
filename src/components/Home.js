@@ -27,13 +27,7 @@ const Home = () => {
                 <ul>
                   <li>
                     <a
-                      href="#"
-                      onClick={() =>
-                        onOpenModal(
-                          "/img/service/1.jpg",
-                          "Creative Designer based in Japan"
-                        )
-                      }
+                     href="#home"
                     >
                       <img className="image" src="/img/service/1.jpg" alt="" />
                       <span>Front-end</span>
@@ -47,9 +41,6 @@ const Home = () => {
                   <li>
                     <a
                       href="#"
-                      onClick={() =>
-                        onOpenModal("/img/service/2.jpg", "Digital Marketing")
-                      }
                     >
                       <img className="image" src="/img/service/2.jpg" alt="" />
                       <span>UI/UX Design</span>
@@ -63,9 +54,6 @@ const Home = () => {
                   <li>
                     <a
                       href="#"
-                      onClick={() =>
-                        onOpenModal("/img/service/1.jpg", "Graphic Design")
-                      }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
                       <span>Back-end</span>
