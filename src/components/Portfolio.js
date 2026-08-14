@@ -6,9 +6,9 @@ import { portfolioSlider } from "../swiperSliderProps";
 const IMAGES = [
   {
     src: "/img/portfolio/1.webp",
-    link: "https://jeffuchoa.github.io/Donas-de-Luxo/",
+    link: "https://jeffuchoa.github.io/donas-de-tudo/",
     thumbnail: "/img/portfolio/1.jpg",
-    title: "Donas D' Luxo",
+    title: "Donas D' Tudo",
     sub: "Landing Page"
   },
   {
