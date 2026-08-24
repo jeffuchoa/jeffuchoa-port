@@ -26,6 +26,14 @@ const IMAGES = [
     title: "Janaina Queiroz",
     sub: "UI/UX"
   },
+
+  {
+    src: "/img/portfolio/4.webp",
+    link: "https://jeffuchoa.github.io/johns-barbearia/",
+    thumbnail: "/img/portfolio/4.webp",
+    title: "John's Barbearia",
+    sub: "Landing Page"
+  },
 ];
 
 const Portfolio = () => {
