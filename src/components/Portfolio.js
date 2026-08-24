@@ -5,6 +5,13 @@ import { portfolioSlider } from "../swiperSliderProps";
 
 const IMAGES = [
   {
+    src: "/img/portfolio/4.webp",
+    link: "https://jeffuchoa.github.io/johns-barbearia/",
+    thumbnail: "/img/portfolio/4.webp",
+    title: "John's Barbearia",
+    sub: "Landing Page"
+  },
+  {
     src: "/img/portfolio/1.webp",
     link: "https://jeffuchoa.github.io/donas-de-tudo/",
     thumbnail: "/img/portfolio/1.jpg",
@@ -25,14 +32,6 @@ const IMAGES = [
     thumbnail: "/img/portfolio/3.webp",
     title: "Janaina Queiroz",
     sub: "UI/UX"
-  },
-
-  {
-    src: "/img/portfolio/4.webp",
-    link: "https://jeffuchoa.github.io/johns-barbearia/",
-    thumbnail: "/img/portfolio/4.webp",
-    title: "John's Barbearia",
-    sub: "Landing Page"
   },
 ];
 
